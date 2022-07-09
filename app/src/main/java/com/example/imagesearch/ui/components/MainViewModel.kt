@@ -20,7 +20,7 @@ class MainViewModel @Inject constructor(private val mainRepository: MainReposito
             val apiResult = mainRepository.getQueryItems(q)
             when(apiResult) {
                 is Resource.Error -> {
-                    list.value = MainState(error = "ERROR")
+                    list.value = MainState(error = "ERRROR")
                 }
                 is Resource.Success -> {
                     apiResult.data?.hits?.let {

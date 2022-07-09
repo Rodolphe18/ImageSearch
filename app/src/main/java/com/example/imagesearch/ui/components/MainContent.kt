@@ -30,7 +30,7 @@ fun MainContent(viewModel: MainViewModel = hiltViewModel()) {
     val query : MutableState<String> = remember { mutableStateOf("") }
     val result = viewModel.list.value
     Surface(modifier = Modifier.fillMaxSize()) {
-        Column(modifier = Modifier.padding(8.dp)) {
+        Column(modifier = Modifier.padding(10.dp)) {
 
             OutlinedTextField(value = query.value, onValueChange =
                 { query.value = it
