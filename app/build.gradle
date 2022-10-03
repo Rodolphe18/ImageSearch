@@ -9,6 +9,7 @@ android {
     namespace 'com.example.imagesearch'
     compileSdk 31
 
+
     defaultConfig {
         applicationId "com.example.imagesearch"
         minSdk 23
