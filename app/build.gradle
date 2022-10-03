@@ -8,7 +8,7 @@ plugins {
 android {
     namespace 'com.example.imagesearch'
     compileSdk 31
-
+    buildToolsVersion "21.0.1"
 
     defaultConfig {
         applicationId "com.example.imagesearch"
